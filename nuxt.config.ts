@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     preference: 'dark'
   },
   app: {
+    baseURL: '/TrendRadar/',
     head: {
       title: 'TrendRadar - 趋势雷达 | 自媒体人信息导航',
       meta: [
@@ -16,7 +17,7 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: '#6366F1' }
       ],
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'icon', type: 'image/svg+xml', href: '~/favicon.svg' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600;700&display=swap' }
