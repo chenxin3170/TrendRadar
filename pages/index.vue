@@ -9,7 +9,7 @@ const {
   setSearchQuery
 } = useSites()
 
-const handleCategoryChange = (category: CategoryId | 'all') => {
+const handleCategoryChange = (category: CategoryId | 'all' | 'favorites') => {
   setCategory(category)
 }
 
@@ -50,7 +50,10 @@ useHead({
               </p>
             </div>
           </div>
-          <ThemeToggle />
+          <div class="flex items-center gap-3">
+            <SiteSubmission />
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </header>
@@ -99,14 +102,15 @@ useHead({
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
         <p class="text-slate-500 dark:text-slate-400 text-lg">
-          未找到匹配的站点
+          {{ selectedCategory === 'favorites' ? '还没有收藏任何站点' : '未找到匹配的站点' }}
         </p>
         <p class="text-slate-400 dark:text-slate-500 text-sm mt-2">
-          尝试调整搜索关键词或筛选条件
+          {{ selectedCategory === 'favorites' ? '点击站点卡片上的星标收藏喜欢的站点' : '尝试调整搜索关键词或筛选条件' }}
         </p>
       </div>
 
       <Footer />
+      <Analytics />
     </main>
   </div>
 </template>

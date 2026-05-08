@@ -1,14 +1,20 @@
 import { ref, computed } from 'vue'
 import { sites, categories, type CategoryId, type Site } from '~/data/sites'
+import { useFavorites } from './useFavorites'
 
 const searchQuery = ref('')
-const selectedCategory = ref<CategoryId | 'all'>('all')
+const selectedCategory = ref<CategoryId | 'all' | 'favorites'>('all')
 
 export function useSites() {
+  const { getFavoriteSiteIds } = useFavorites()
+
   const filteredSites = computed(() => {
     let result = sites
 
-    if (selectedCategory.value !== 'all') {
+    if (selectedCategory.value === 'favorites') {
+      const favoriteIds = getFavoriteSiteIds()
+      result = result.filter(site => favoriteIds.includes(site.id))
+    } else if (selectedCategory.value !== 'all') {
       result = result.filter(site => site.category === selectedCategory.value)
     }
 
@@ -24,7 +30,7 @@ export function useSites() {
     return result
   })
 
-  const setCategory = (category: CategoryId | 'all') => {
+  const setCategory = (category: CategoryId | 'all' | 'favorites') => {
     selectedCategory.value = category
   }
 

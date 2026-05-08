@@ -27,13 +27,8 @@ const categoryColors: Record<string, string> = {
 </script>
 
 <template>
-  <a
-    :href="site.url"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="group block bg-white dark:bg-slate-800 rounded-xl p-5 shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 border border-slate-200 dark:border-slate-700"
-  >
-    <div class="flex items-start justify-between mb-3">
+  <div class="group block bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 hover:-translate-y-1 border border-slate-200 dark:border-slate-700">
+    <div class="flex items-start justify-between mb-3 p-5 pb-0">
       <div class="flex items-center gap-3">
         <div class="w-10 h-10 rounded-lg bg-slate-100 dark:bg-slate-700 flex items-center justify-center">
           <svg
@@ -48,21 +43,21 @@ const categoryColors: Record<string, string> = {
           {{ site.name }}
         </h3>
       </div>
-      <svg
-        class="w-4 h-4 text-slate-400 opacity-0 group-hover:opacity-100 transition-opacity"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-      </svg>
+      <div class="flex items-center gap-2">
+        <FavoriteButton :site-id="site.id" />
+      </div>
     </div>
 
-    <p class="text-sm text-slate-500 dark:text-slate-400 mb-4 line-clamp-2">
-      {{ site.description }}
-    </p>
+    <a
+      :href="site.url"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="block p-5 pt-3"
+    >
+      <p class="text-sm text-slate-500 dark:text-slate-400 mb-4 line-clamp-2">
+        {{ site.description }}
+      </p>
 
-    <div class="flex items-center justify-between">
       <div class="flex flex-wrap gap-1.5">
         <span
           v-for="tag in site.tags.slice(0, 2)"
@@ -73,6 +68,17 @@ const categoryColors: Record<string, string> = {
           {{ tag }}
         </span>
       </div>
-    </div>
-  </a>
+
+      <div class="flex items-center justify-end mt-2">
+        <svg
+          class="w-4 h-4 text-slate-400 opacity-0 group-hover:opacity-100 transition-opacity"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+      </div>
+    </a>
+  </div>
 </template>
