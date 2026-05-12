@@ -39,21 +39,18 @@ const categoryColors: Record<string, string> = {
             <path :d="categoryIcons[site.category] || categoryIcons.tech" />
           </svg>
         </div>
-        <h3 class="font-semibold text-slate-900 dark:text-slate-100 group-hover:text-indigo-500 transition-colors">
-          {{ site.name }}
-        </h3>
+        <NuxtLink :to="`/sites/${site.id}`" class="block">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 group-hover:text-indigo-500 transition-colors">
+            {{ site.name }}
+          </h3>
+        </NuxtLink>
       </div>
       <div class="flex items-center gap-2">
         <FavoriteButton :site-id="site.id" />
       </div>
     </div>
 
-    <a
-      :href="site.url"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="block p-5 pt-3"
-    >
+    <NuxtLink :to="`/sites/${site.id}`" class="block p-5 pt-3">
       <p class="text-sm text-slate-500 dark:text-slate-400 mb-4 line-clamp-2">
         {{ site.description }}
       </p>
@@ -79,6 +76,20 @@ const categoryColors: Record<string, string> = {
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
         </svg>
       </div>
-    </a>
+    </NuxtLink>
+
+    <div class="px-5 pb-5">
+      <a
+        :href="site.url"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-1.5 text-sm text-indigo-500 hover:text-indigo-600 font-medium"
+      >
+        访问
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+      </a>
+    </div>
   </div>
 </template>

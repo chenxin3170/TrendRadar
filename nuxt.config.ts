@@ -1,3 +1,5 @@
+import { sites } from './data/sites'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
@@ -34,6 +36,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/',
     head: {
+      htmlAttrs: { lang: 'zh-CN' },
       title: 'TrendRadar - 趋势雷达 | 自媒体人信息导航',
       meta: [
         { name: 'description', content: '面向自媒体人的信息聚合导航页，每天30分钟吃透全网趋势' },
@@ -63,6 +66,20 @@ export default defineNuxtConfig({
   },
   ssr: true,
   nitro: {
-    preset: 'static'
+    preset: 'static',
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/sites',
+        '/about',
+        '/blog',
+        '/blog/2026-self-media-tools',
+        '/blog/google-trends-tutorial',
+        '/blog/product-hunt-guide',
+        '/blog/reddit-tutorial',
+        ...sites.map(site => `/sites/${site.id}`)
+      ]
+    }
   }
 })

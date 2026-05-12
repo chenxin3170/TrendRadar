@@ -51,6 +51,13 @@ useHead({
             </div>
           </div>
           <div class="flex items-center gap-3">
+            <nav class="hidden md:flex items-center gap-4 mr-4">
+              <NuxtLink to="/blog" class="text-sm text-slate-600 dark:text-slate-300 hover:text-indigo-500 transition-colors">博客</NuxtLink>
+              <NuxtLink to="/about" class="text-sm text-slate-600 dark:text-slate-300 hover:text-indigo-500 transition-colors">关于</NuxtLink>
+            </nav>
+            <div class="md:hidden flex items-center gap-3">
+              <NuxtLink to="/blog" class="text-sm text-slate-600 dark:text-slate-300 hover:text-indigo-500 transition-colors">博客</NuxtLink>
+            </div>
             <SiteSubmission />
             <ThemeToggle />
           </div>
@@ -107,6 +114,15 @@ useHead({
         <p class="text-slate-400 dark:text-slate-500 text-sm mt-2">
           {{ selectedCategory === 'favorites' ? '点击站点卡片上的星标收藏喜欢的站点' : '尝试调整搜索关键词或筛选条件' }}
         </p>
+      </div>
+
+      <div class="md:hidden mt-8 py-6 border-t border-slate-200 dark:border-slate-700">
+        <NuxtLink to="/about" class="flex items-center justify-center gap-2 text-sm text-slate-500 dark:text-slate-400 hover:text-indigo-500 transition-colors">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          关于我们
+        </NuxtLink>
       </div>
 
       <Footer />
