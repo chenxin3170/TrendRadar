@@ -4,6 +4,18 @@ useHead({
   title: '关于我们 - TrendRadar 趋势雷达',
   meta: [
     { name: 'description', content: '了解 TrendRadar 趋势雷达的使命和使用指南。面向自媒体人、内容创作者和求职者的信息聚合导航页，帮助您每天30分钟吃透全网趋势。' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'AboutPage',
+        'name': 'TrendRadar 趋势雷达',
+        'description': '面向自媒体人的信息聚合导航页，帮助用户每天30分钟吃透全网趋势。',
+        'url': 'https://www.apppss.com/about'
+      })
+    }
   ]
 })
 </script>

@@ -13,6 +13,23 @@ useHead({
       name: 'description',
       content: () => site.value ? `${site.value.description} - 自媒体人必备工具推荐，访问 TrendRadar 获取更多趋势监控信号源。` : ''
     }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: computed(() => JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        'name': site.value?.name,
+        'description': site.value?.description,
+        'url': `https://www.apppss.com/sites/${route.params.id}`,
+        'publisher': {
+          '@type': 'WebSite',
+          'name': 'TrendRadar 趋势雷达',
+          'url': 'https://www.apppss.com'
+        }
+      }))
+    }
   ]
 })
 

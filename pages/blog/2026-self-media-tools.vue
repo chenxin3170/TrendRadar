@@ -4,6 +4,28 @@ useHead({
   title: '2026 年自媒体人必备工具清单 - TrendRadar 趋势雷达',
   meta: [
     { name: 'description', content: '2026年自媒体人必备工具清单，精选32+款趋势监控工具，覆盖 Reddit 社区、Google Trends、Product Hunt 等平台，帮助自媒体人每天30分钟吃透全网趋势。' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': '2026 年自媒体人必备工具清单',
+        'description': '2026年自媒体人必备工具清单，精选32+款趋势监控工具，覆盖 Reddit 社区、Google Trends、Product Hunt 等平台。',
+        'url': 'https://www.apppss.com/blog/2026-self-media-tools',
+        'datePublished': '2026-05-10',
+        'author': {
+          '@type': 'Organization',
+          'name': 'TrendRadar'
+        },
+        'publisher': {
+          '@type': 'Organization',
+          'name': 'TrendRadar 趋势雷达',
+          'url': 'https://www.apppss.com'
+        }
+      })
+    }
   ]
 })
 

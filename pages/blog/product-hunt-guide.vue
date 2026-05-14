@@ -4,6 +4,28 @@ useHead({
   title: 'Product Hunt 是什么，创业者如何用它找灵感 - TrendRadar 趋势雷达',
   meta: [
     { name: 'description', content: 'Product Hunt 是全球最大的新产品发布平台，每天都有数百款新产品在这里首发。本文教你如何利用 Product Hunt 发现最新科技趋势、竞品动态和创新灵感。' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        'headline': 'Product Hunt 是什么，创业者如何用它找灵感',
+        'description': 'Product Hunt 是全球最大的新产品发布平台，每天都有数百款新产品在这里首发。本文教你如何利用 Product Hunt 发现最新科技趋势、竞品动态和创新灵感。',
+        'url': 'https://www.apppss.com/blog/product-hunt-guide',
+        'datePublished': '2026-05-06',
+        'author': {
+          '@type': 'Organization',
+          'name': 'TrendRadar'
+        },
+        'publisher': {
+          '@type': 'Organization',
+          'name': 'TrendRadar 趋势雷达',
+          'url': 'https://www.apppss.com'
+        }
+      })
+    }
   ]
 })
 
