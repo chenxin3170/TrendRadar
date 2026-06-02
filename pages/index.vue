@@ -20,7 +20,8 @@ const handleSearchChange = (query: string) => {
 useHead({
   title: 'TrendRadar - 趋势雷达 | 自媒体人信息导航',
   meta: [
-    { name: 'description', content: '面向自媒体人的信息聚合导航页，每天30分钟吃透全网趋势' }
+    { name: 'description', content: '面向自媒体人的信息聚合导航页，每天30分钟吃透全网趋势' },
+    { name: 'keywords', content: '趋势监控,自媒体工具,内容创作,选题灵感,趋势发现,Reddit,Google Trends,Product Hunt,信息聚合,自媒体导航' }
   ]
 })
 </script>

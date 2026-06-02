@@ -12,6 +12,10 @@ useHead({
     {
       name: 'description',
       content: () => site.value ? `${site.value.description} - 自媒体人必备工具推荐，访问 TrendRadar 获取更多趋势监控信号源。` : ''
+    },
+    {
+      name: 'keywords',
+      content: () => site.value ? `${site.value.name},${site.value.tags.join(',')},趋势监控,自媒体工具,TrendRadar` : ''
     }
   ],
   script: [

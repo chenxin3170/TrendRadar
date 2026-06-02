@@ -3,7 +3,8 @@
 useHead({
   title: '博客 - TrendRadar 趋势雷达',
   meta: [
-    { name: 'description', content: 'TrendRadar 博客，提供趋势发现技巧、工具使用教程和自媒体运营指南。了解如何利用 Google Trends、Reddit 等平台发现爆款选题。' }
+    { name: 'description', content: 'TrendRadar 博客，提供趋势发现技巧、工具使用教程和自媒体运营指南。了解如何利用 Google Trends、Reddit 等平台发现爆款选题。' },
+    { name: 'keywords', content: 'TrendRadar博客,趋势发现技巧,自媒体教程,内容创作,选题灵感,Google Trends教程,Reddit运营,自媒体运营,工具使用指南' }
   ]
 })
 

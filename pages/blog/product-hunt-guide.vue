@@ -3,7 +3,8 @@
 useHead({
   title: 'Product Hunt 是什么，创业者如何用它找灵感 - TrendRadar 趋势雷达',
   meta: [
-    { name: 'description', content: 'Product Hunt 是全球最大的新产品发布平台，每天都有数百款新产品在这里首发。本文教你如何利用 Product Hunt 发现最新科技趋势、竞品动态和创新灵感。' }
+    { name: 'description', content: 'Product Hunt 是全球最大的新产品发布平台，每天都有数百款新产品在这里首发。本文教你如何利用 Product Hunt 发现最新科技趋势、竞品动态和创新灵感。' },
+    { name: 'keywords', content: 'Product Hunt,新产品发现,创业灵感,科技趋势,产品评测,竞品分析,创新工具,创业者,产品经理,创业平台' }
   ],
   script: [
     {

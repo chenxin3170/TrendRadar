@@ -3,7 +3,8 @@
 useHead({
   title: '2026 年自媒体人必备工具清单 - TrendRadar 趋势雷达',
   meta: [
-    { name: 'description', content: '2026年自媒体人必备工具清单，精选32+款趋势监控工具，覆盖 Reddit 社区、Google Trends、Product Hunt 等平台，帮助自媒体人每天30分钟吃透全网趋势。' }
+    { name: 'description', content: '2026年自媒体人必备工具清单，精选32+款趋势监控工具，覆盖 Reddit 社区、Google Trends、Product Hunt 等平台，帮助自媒体人每天30分钟吃透全网趋势。' },
+    { name: 'keywords', content: '自媒体工具,趋势监控工具,2026工具清单,内容创作软件,选题工具,热点追踪,Reddit,Google Trends,Product Hunt,Github Trending,自媒体必备' }
   ],
   script: [
     {

@@ -3,7 +3,8 @@
 useHead({
   title: 'Reddit 社区挖掘需求的完整教程 - TrendRadar 趋势雷达',
   meta: [
-    { name: 'description', content: 'Reddit 是全球最大的社区论坛之一，聚集了各行各业的真实用户讨论。本文详细介绍如何通过 Reddit 发现用户痛点、挖掘内容选题和建立个人品牌。' }
+    { name: 'description', content: 'Reddit 是全球最大的社区论坛之一，聚集了各行各业的真实用户讨论。本文详细介绍如何通过 Reddit 发现用户痛点、挖掘内容选题和建立个人品牌。' },
+    { name: 'keywords', content: 'Reddit教程,社区运营,用户需求挖掘,内容选题,用户痛点,自媒体运营,海外社交平台,社区营销,Reddit新手入门,内容灵感' }
   ],
   script: [
     {

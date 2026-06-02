@@ -3,7 +3,8 @@
 useHead({
   title: '关于我们 - TrendRadar 趋势雷达',
   meta: [
-    { name: 'description', content: '了解 TrendRadar 趋势雷达的使命和使用指南。面向自媒体人、内容创作者和求职者的信息聚合导航页，帮助您每天30分钟吃透全网趋势。' }
+    { name: 'description', content: '了解 TrendRadar 趋势雷达的使命和使用指南。面向自媒体人、内容创作者和求职者的信息聚合导航页，帮助您每天30分钟吃透全网趋势。' },
+    { name: 'keywords', content: 'TrendRadar,趋势雷达,关于我们,自媒体工具,内容创作,趋势监控,信息聚合,自媒体导航,使用指南' }
   ],
   script: [
     {

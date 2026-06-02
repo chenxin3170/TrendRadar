@@ -3,7 +3,8 @@
 useHead({
   title: '如何用 Google Trends 发现爆款选题 - TrendRadar 趋势雷达',
   meta: [
-    { name: 'description', content: 'Google Trends 是免费且强大的趋势发现工具。本文详细介绍如何利用 Google Trends 的实时趋势、对比分析、地区筛选等功能，发现潜在的爆款选题内容。' }
+    { name: 'description', content: 'Google Trends 是免费且强大的趋势发现工具。本文详细介绍如何利用 Google Trends 的实时趋势、对比分析、地区筛选等功能，发现潜在的爆款选题内容。' },
+    { name: 'keywords', content: 'Google Trends教程,趋势发现,爆款选题,搜索趋势,选题灵感,内容创作,关键词分析,SEO优化,热点追踪,Google Trends使用技巧' }
   ],
   script: [
     {
