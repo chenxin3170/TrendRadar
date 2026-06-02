@@ -18,7 +18,8 @@ const errors = ref<Record<string, string>>({})
 
 const allTags = [
   '远程工作', '在线赚钱', '自由职业', '数字游民', '文案写作', '前端开发',
-  '数据科学', 'AI', 'Web3', '创业', '营销', '设计', '产品', '技术', '内容'
+  '数据科学', 'AI', '电商', '跨境', '选品', '营销', 'Shopify', '独立站',
+  'Web3', '创业', '设计', '产品', '技术', '内容'
 ]
 
 const selectedTags = ref<string[]>([])

@@ -8,7 +8,7 @@ export interface Site {
   icon?: string
 }
 
-export type CategoryId = 'reddit' | 'trend' | 'tech' | 'content' | 'data' | 'social' | 'cn'
+export type CategoryId = 'reddit' | 'trend' | 'tech' | 'content' | 'data' | 'social' | 'cn' | 'ecommerce'
 
 export interface Category {
   id: CategoryId
@@ -24,7 +24,8 @@ export const categories: Category[] = [
   { id: 'content', name: '深度内容', nameEn: 'Deep Content', icon: 'content' },
   { id: 'data', name: '数据分析', nameEn: 'Data Analytics', icon: 'data' },
   { id: 'social', name: '社媒聚合', nameEn: 'Social Media', icon: 'social' },
-  { id: 'cn', name: '中文聚合', nameEn: 'Chinese Aggregation', icon: 'cn' }
+  { id: 'cn', name: '中文聚合', nameEn: 'Chinese Aggregation', icon: 'cn' },
+  { id: 'ecommerce', name: '电商工具', nameEn: 'E-commerce Tools', icon: 'ecommerce' }
 ]
 
 export const sites: Site[] = [
@@ -275,5 +276,21 @@ export const sites: Site[] = [
     description: '全球热门讨论，实时跟踪海外热点',
     category: 'cn',
     tags: ['热门', '全球', '中文']
+  },
+  {
+    id: 'chao-neng-wen-xian',
+    name: '超能文献（Suppr）',
+    url: 'http://suppr.wilddata.cn/',
+    description: '让医学文献检索回归"说人话"',
+    category: 'content',
+    tags: ['医学', '文献', '检索']
+  },
+  {
+    id: 'chu-hai-jiang',
+    name: '出海匠',
+    url: 'https://www.chuhaijiang.com',
+    description: 'AI 智能体全面管理社交电商工作流',
+    category: 'ecommerce',
+    tags: ['创业', 'AI', '社交电商']
   }
 ]
