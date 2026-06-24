@@ -42,8 +42,8 @@ const validateForm = () => {
 
   if (!form.value.url.trim()) {
     errors.value.url = '请输入站点URL'
-  } else if (!/^[a-zA-Z0-9][a-zA-Z0-9-_.]+\.[a-zA-Z]{2,}$/i.test(form.value.url)) {
-    errors.value.url = '请输入有效的域名（如 example.com）'
+  } else if (!/^(https?:\/\/)?([a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}(\/.*)?$/i.test(form.value.url)) {
+    errors.value.url = '请输入有效的域名（如 example.com 或 https://example.com/path）'
   }
 
   if (!form.value.description.trim()) {
