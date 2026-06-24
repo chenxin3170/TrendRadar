@@ -8,7 +8,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: computed(() => `https://www.apppss.com${route.path}`)
+      href: computed(() => `https://panic-3170.github.io/TrendRadar${route.path}`)
     }
   ]
 })

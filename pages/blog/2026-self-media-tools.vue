@@ -14,7 +14,7 @@ useHead({
         '@type': 'Article',
         'headline': '2026 年自媒体人必备工具清单',
         'description': '2026年自媒体人必备工具清单，精选32+款趋势监控工具，覆盖 Reddit 社区、Google Trends、Product Hunt 等平台。',
-        'url': 'https://www.apppss.com/blog/2026-self-media-tools',
+        'url': 'https://panic-3170.github.io/TrendRadar/blog/2026-self-media-tools',
         'datePublished': '2026-05-10',
         'author': {
           '@type': 'Organization',
@@ -23,7 +23,7 @@ useHead({
         'publisher': {
           '@type': 'Organization',
           'name': 'TrendRadar 趋势雷达',
-          'url': 'https://www.apppss.com'
+          'url': 'https://panic-3170.github.io/TrendRadar'
         }
       })
     }

@@ -26,11 +26,11 @@ useHead({
         '@type': 'WebPage',
         'name': site.value?.name,
         'description': site.value?.description,
-        'url': `https://www.apppss.com/sites/${route.params.id}`,
+        'url': `https://panic-3170.github.io/TrendRadar/sites/${route.params.id}`,
         'publisher': {
           '@type': 'WebSite',
           'name': 'TrendRadar 趋势雷达',
-          'url': 'https://www.apppss.com'
+          'url': 'https://panic-3170.github.io/TrendRadar'
         }
       }))
     }

@@ -14,7 +14,7 @@ useHead({
         '@type': 'Article',
         'headline': 'Reddit 社区挖掘需求的完整教程',
         'description': 'Reddit 是全球最大的社区论坛之一，聚集了各行各业的真实用户讨论。本文详细介绍如何通过 Reddit 发现用户痛点、挖掘内容选题和建立个人品牌。',
-        'url': 'https://www.apppss.com/blog/reddit-tutorial',
+        'url': 'https://panic-3170.github.io/TrendRadar/blog/reddit-tutorial',
         'datePublished': '2026-05-04',
         'author': {
           '@type': 'Organization',
@@ -23,7 +23,7 @@ useHead({
         'publisher': {
           '@type': 'Organization',
           'name': 'TrendRadar 趋势雷达',
-          'url': 'https://www.apppss.com'
+          'url': 'https://panic-3170.github.io/TrendRadar'
         }
       })
     }

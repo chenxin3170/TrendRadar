@@ -14,7 +14,7 @@ useHead({
         '@type': 'AboutPage',
         'name': 'TrendRadar 趋势雷达',
         'description': '面向自媒体人的信息聚合导航页，帮助用户每天30分钟吃透全网趋势。',
-        'url': 'https://www.apppss.com/about'
+        'url': 'https://panic-3170.github.io/TrendRadar/about'
       })
     }
   ]

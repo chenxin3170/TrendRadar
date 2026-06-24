@@ -5,7 +5,7 @@
 
 > 面向自媒体人、内容创作者和求职者的信息聚合导航页
 
-**🌐 在线访问**: [https://www.apppss.com](https://www.apppss.com)
+**🌐 在线访问**: [https://panic-3170.github.io/TrendRadar/](https://panic-3170.github.io/TrendRadar/)
 
 ---
 

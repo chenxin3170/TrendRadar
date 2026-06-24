@@ -14,7 +14,7 @@ useHead({
         '@type': 'Article',
         'headline': '如何用 Google Trends 发现爆款选题',
         'description': 'Google Trends 是免费且强大的趋势发现工具。本文详细介绍如何利用 Google Trends 的实时趋势、对比分析、地区筛选等功能，发现潜在的爆款选题内容。',
-        'url': 'https://www.apppss.com/blog/google-trends-tutorial',
+        'url': 'https://panic-3170.github.io/TrendRadar/blog/google-trends-tutorial',
         'datePublished': '2026-05-08',
         'author': {
           '@type': 'Organization',
@@ -23,7 +23,7 @@ useHead({
         'publisher': {
           '@type': 'Organization',
           'name': 'TrendRadar 趋势雷达',
-          'url': 'https://www.apppss.com'
+          'url': 'https://panic-3170.github.io/TrendRadar'
         }
       })
     }
