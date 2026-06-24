@@ -5,9 +5,9 @@
 
 > 面向自媒体人、内容创作者和求职者的信息聚合导航页
 
-**🌐 在线访问**: [https://panic-3170.github.io/TrendRadar/](https://panic-3170.github.io/TrendRadar/)
+**🌐 在线访问**: <https://panic-3170.github.io/TrendRadar/>
 
----
+***
 
 ## 核心价值
 
@@ -24,15 +24,15 @@
 
 ## 站点分类
 
-| 分类 | 说明 |
-|------|------|
-| Reddit 生态 | 远程工作、在线赚钱、自由职业等 |
-| 趋势监控 | Google Trends、TikTok 趋势等 |
-| 产品与技术 | Product Hunt、GitHub Trending 等 |
-| 深度内容 | Substack、AnswerThePublic 等 |
-| 数据分析 | Crunchbase、SimilarWeb 等 |
-| 社媒聚合 | Twitter、YouTube Trending 等 |
-| 中文聚合 | NewsNow、Buzzing 等 |
+| 分类        | 说明                             |
+| --------- | ------------------------------ |
+| Reddit 生态 | 远程工作、在线赚钱、自由职业等                |
+| 趋势监控      | Google Trends、TikTok 趋势等       |
+| 产品与技术     | Product Hunt、GitHub Trending 等 |
+| 深度内容      | Substack、AnswerThePublic 等     |
+| 数据分析      | Crunchbase、SimilarWeb 等        |
+| 社媒聚合      | Twitter、YouTube Trending 等     |
+| 中文聚合      | NewsNow、Buzzing 等              |
 
 ## 技术栈
 
@@ -52,6 +52,9 @@ npm run dev
 
 # 构建生产版本
 npm run generate
+
+# 更新issue提交的站点
+npm run fetch:sites
 ```
 
 ## 提交站点
@@ -62,8 +65,8 @@ npm run generate
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=chenxin3170/TrendRadar&type=Date)](https://star-history.com/#chenxin3170/TrendRadar&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=chenxin3170/TrendRadar\&type=Date)](https://star-history.com/#chenxin3170/TrendRadar\&Date)
 
----
+***
 
-*Made with ❤️ by [@chenxin3170](https://github.com/chenxin3170)*
+*Made with ❤️ by* *[@panic-3170](https://github.com/panic-3170)*
