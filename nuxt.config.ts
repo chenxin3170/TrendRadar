@@ -1,6 +1,7 @@
 import { sites } from './data/sites'
 
 export default defineNuxtConfig({
+  compatibilityDate: '2026-06-24',
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode'

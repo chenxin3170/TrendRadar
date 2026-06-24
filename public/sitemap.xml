@@ -41,6 +41,36 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://panic-3170.github.io/TrendRadar/blog/kalodata-tutorial</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/blog/reddit-sideproject-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/blog/ahrefs-seo-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/blog/semrush-marketing-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/blog/chinaz-tools-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/blog/app-icon-generator-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://panic-3170.github.io/TrendRadar/sites/reddit-home</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -192,6 +222,46 @@
   </url>
   <url>
     <loc>https://panic-3170.github.io/TrendRadar/sites/buzzing</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/sites/kalodata</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/sites/sideproject</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/sites/ahrefs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/sites/semrush</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/sites/zhan-zhang-gong-ju-zhan-chang-zhang-zhi-jia</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/sites/appicongenerator</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/sites/chu-hai-jiang</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://panic-3170.github.io/TrendRadar/sites/chao-neng-wen-xian</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
