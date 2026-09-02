@@ -1,10 +1,10 @@
 <script setup lang="ts">
 
 useHead({
-  title: '关于我们 - TrendRadar 趋势雷达',
+  title: '关于我们 - 聚栈',
   meta: [
-    { name: 'description', content: '了解 TrendRadar 趋势雷达的使命和使用指南。面向自媒体人、内容创作者和求职者的信息聚合导航页，帮助您每天30分钟吃透全网趋势。' },
-    { name: 'keywords', content: 'TrendRadar,趋势雷达,关于我们,自媒体工具,内容创作,趋势监控,信息聚合,自媒体导航,使用指南' }
+    { name: 'description', content: '了解 聚栈的使命和使用指南。面向自媒体人、内容创作者和求职者的信息聚合导航页，帮助您每天30分钟吃透全网趋势。' },
+    { name: 'keywords', content: '聚栈,关于我们,自媒体工具,内容创作,趋势监控,信息聚合,自媒体导航,使用指南' }
   ],
   script: [
     {
@@ -12,9 +12,9 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'AboutPage',
-        'name': 'TrendRadar 趋势雷达',
+        'name': '聚栈',
         'description': '面向自媒体人的信息聚合导航页，帮助用户每天30分钟吃透全网趋势。',
-        'url': 'https://panic-3170.github.io/TrendRadar/about'
+        'url': 'https://jz.apppss.com/about/'
       })
     }
   ]
@@ -32,13 +32,13 @@ useHead({
 
     <main class="max-w-4xl mx-auto px-4 py-8">
       <section class="bg-white dark:bg-slate-800 rounded-xl p-8 border border-slate-200 dark:border-slate-700 mb-8">
-        <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">TrendRadar 趋势雷达</h2>
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">聚栈</h2>
         <div class="prose dark:prose-invert max-w-none">
           <p class="text-slate-600 dark:text-slate-300 text-lg leading-relaxed mb-6">
-            TrendRadar（趋势雷达）是一款面向自媒体人、内容创作者和求职者的信息聚合导航工具。我们的使命是帮助用户在每天30分钟内，全面掌握全网趋势动态。
+            聚栈是一款面向自媒体人、内容创作者和求职者的信息聚合导航工具。我们的使命是帮助用户在每天30分钟内，全面掌握全网趋势动态。
           </p>
           <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
-            在信息爆炸的时代，优质信息的获取成本越来越高。TrendRadar 精心筛选了32+个最具价值趋势监控信号源，覆盖 Reddit 社区讨论、Google Trends 搜索趋势、Product Hunt 新产品发布等多个维度，让您不再错过任何重要趋势。
+            在信息爆炸的时代，优质信息的获取成本越来越高。聚栈 精心筛选了32+个最具价值趋势监控信号源，覆盖 Reddit 社区讨论、Google Trends 搜索趋势、Product Hunt 新产品发布等多个维度，让您不再错过任何重要趋势。
           </p>
         </div>
       </section>
@@ -121,7 +121,7 @@ useHead({
             <div class="w-8 h-8 rounded-full bg-indigo-500 text-white flex items-center justify-center flex-shrink-0 font-semibold">4</div>
             <div>
               <h3 class="font-semibold text-slate-900 dark:text-slate-100">阅读博客</h3>
-              <p class="text-sm text-slate-500 dark:text-slate-400">访问博客板块，获取趋势发现技巧和工具使用教程</p>
+              <p class="text-sm text-slate-500 dark:text-slate-400">点击导航「博客」跳转 apppss.com，获取趋势发现技巧和工具使用教程</p>
             </div>
           </div>
         </div>

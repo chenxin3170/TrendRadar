@@ -18,7 +18,7 @@ const handleSearchChange = (query: string) => {
 }
 
 useHead({
-  title: 'TrendRadar - 趋势雷达 | 自媒体人信息导航',
+  title: '聚栈 | 自媒体人信息导航',
   meta: [
     { name: 'description', content: '面向自媒体人的信息聚合导航页，每天30分钟吃透全网趋势' },
     { name: 'keywords', content: '趋势监控,自媒体工具,内容创作,选题灵感,趋势发现,Reddit,Google Trends,Product Hunt,信息聚合,自媒体导航' }
@@ -44,20 +44,17 @@ useHead({
             </div>
             <div>
               <h1 class="text-xl font-bold text-slate-900 dark:text-slate-100">
-                TrendRadar
+                聚栈
               </h1>
-              <p class="text-xs text-slate-500 dark:text-slate-400 hidden sm:block">
-                趋势雷达
-              </p>
             </div>
           </div>
           <div class="flex items-center gap-3">
             <nav class="hidden md:flex items-center gap-4 mr-4">
-              <NuxtLink to="/blog" class="text-sm text-slate-600 dark:text-slate-300 hover:text-indigo-500 transition-colors">博客</NuxtLink>
+              <a href="https://apppss.com" target="_blank" rel="noopener noreferrer" class="text-sm text-slate-600 dark:text-slate-300 hover:text-indigo-500 transition-colors">博客</a>
               <NuxtLink to="/about" class="text-sm text-slate-600 dark:text-slate-300 hover:text-indigo-500 transition-colors">关于</NuxtLink>
             </nav>
             <div class="md:hidden flex items-center gap-3">
-              <NuxtLink to="/blog" class="text-sm text-slate-600 dark:text-slate-300 hover:text-indigo-500 transition-colors">博客</NuxtLink>
+              <a href="https://apppss.com" target="_blank" rel="noopener noreferrer" class="text-sm text-slate-600 dark:text-slate-300 hover:text-indigo-500 transition-colors">博客</a>
             </div>
             <SiteSubmission />
             <ThemeToggle />

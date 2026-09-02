@@ -19,7 +19,7 @@ const currentYear = new Date().getFullYear()
             Made with ❤️ for content creators
           </p>
           <p class="text-xs text-slate-400 dark:text-slate-500 mt-1">
-            © {{ currentYear }} TrendRadar. All rights reserved.
+            © {{ currentYear }} 聚栈. All rights reserved.
           </p>
         </div>
       </div>

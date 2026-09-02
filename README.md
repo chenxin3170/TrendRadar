@@ -1,11 +1,11 @@
-# TrendRadar - 趋势雷达
+# 聚栈
 
-[![Website](https://img.shields.io/badge/Website-www.apppss.com-blue?style=flat-square)](https://www.apppss.com)
+[![Website](https://img.shields.io/badge/Website-jz.apppss.com-blue?style=flat-square)](https://jz.apppss.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 > 面向自媒体人、内容创作者和求职者的信息聚合导航页
 
-**🌐 在线访问**: <https://panic-3170.github.io/TrendRadar/>
+**🌐 在线访问**: <https://jz.apppss.com/>
 
 ***
 

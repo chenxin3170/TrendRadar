@@ -1,267 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/</loc>
+    <loc>https://jz.apppss.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites</loc>
+    <loc>https://jz.apppss.com/sites/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/about</loc>
+    <loc>https://jz.apppss.com/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog/2026-self-media-tools</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog/google-trends-tutorial</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog/product-hunt-guide</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog/reddit-tutorial</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog/kalodata-tutorial</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog/reddit-sideproject-guide</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog/ahrefs-seo-guide</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog/semrush-marketing-guide</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog/chinaz-tools-guide</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/blog/app-icon-generator-guide</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/reddit-home</loc>
+    <loc>https://jz.apppss.com/sites/reddit-home/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/r-remotework</loc>
+    <loc>https://jz.apppss.com/sites/r-remotework/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/r-workonline</loc>
+    <loc>https://jz.apppss.com/sites/r-workonline/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/r-freelance</loc>
+    <loc>https://jz.apppss.com/sites/r-freelance/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/r-forhire</loc>
+    <loc>https://jz.apppss.com/sites/r-forhire/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/r-digitalnomad</loc>
+    <loc>https://jz.apppss.com/sites/r-digitalnomad/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/r-copywriting</loc>
+    <loc>https://jz.apppss.com/sites/r-copywriting/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/r-webdev</loc>
+    <loc>https://jz.apppss.com/sites/r-webdev/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/r-datascience</loc>
+    <loc>https://jz.apppss.com/sites/r-datascience/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/google-trends</loc>
+    <loc>https://jz.apppss.com/sites/google-trends/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/tiktok-creative</loc>
+    <loc>https://jz.apppss.com/sites/tiktok-creative/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/exploding-topics</loc>
+    <loc>https://jz.apppss.com/sites/exploding-topics/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/pinterest-predicts</loc>
+    <loc>https://jz.apppss.com/sites/pinterest-predicts/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/product-hunt</loc>
+    <loc>https://jz.apppss.com/sites/product-hunt/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/github-trending</loc>
+    <loc>https://jz.apppss.com/sites/github-trending/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/hacker-news</loc>
+    <loc>https://jz.apppss.com/sites/hacker-news/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/gartner-hype</loc>
+    <loc>https://jz.apppss.com/sites/gartner-hype/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/substack</loc>
+    <loc>https://jz.apppss.com/sites/substack/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/answer-public</loc>
+    <loc>https://jz.apppss.com/sites/answer-public/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/buzzsumo</loc>
+    <loc>https://jz.apppss.com/sites/buzzsumo/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/crunchbase</loc>
+    <loc>https://jz.apppss.com/sites/crunchbase/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/data-ai</loc>
+    <loc>https://jz.apppss.com/sites/data-ai/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/similarweb</loc>
+    <loc>https://jz.apppss.com/sites/similarweb/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/meta-ad-library</loc>
+    <loc>https://jz.apppss.com/sites/meta-ad-library/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/feedly</loc>
+    <loc>https://jz.apppss.com/sites/feedly/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/twitter-x</loc>
+    <loc>https://jz.apppss.com/sites/twitter-x/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/youtube-trending</loc>
+    <loc>https://jz.apppss.com/sites/youtube-trending/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/newsnow</loc>
+    <loc>https://jz.apppss.com/sites/newsnow/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/sopilot</loc>
+    <loc>https://jz.apppss.com/sites/sopilot/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/aihot</loc>
+    <loc>https://jz.apppss.com/sites/aihot/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/buzzing</loc>
+    <loc>https://jz.apppss.com/sites/buzzing/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/kalodata</loc>
+    <loc>https://jz.apppss.com/sites/kalodata/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/sideproject</loc>
+    <loc>https://jz.apppss.com/sites/sideproject/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/ahrefs</loc>
+    <loc>https://jz.apppss.com/sites/ahrefs/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/semrush</loc>
+    <loc>https://jz.apppss.com/sites/semrush/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/zhan-zhang-gong-ju-zhan-chang-zhang-zhi-jia</loc>
+    <loc>https://jz.apppss.com/sites/zhan-zhang-gong-ju-zhan-chang-zhang-zhi-jia/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/appicongenerator</loc>
+    <loc>https://jz.apppss.com/sites/appicongenerator/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/chu-hai-jiang</loc>
+    <loc>https://jz.apppss.com/sites/chu-hai-jiang/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://panic-3170.github.io/TrendRadar/sites/chao-neng-wen-xian</loc>
+    <loc>https://jz.apppss.com/sites/chao-neng-wen-xian/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

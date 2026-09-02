@@ -342,4 +342,77 @@ export const sites: Site[] = [
     category: 'ecommerce',
     tags: ["AI","设计"]
   }
+,
+  {
+    id: '人声分离',
+    name: '人声分离',
+    url: 'https://vocalremover.org/zh/',
+    description: '最好用的免费在线人声分离',
+    category: 'tech',
+    tags: ["产品","技术"]
+  },
+  {
+    id: 'chatgpt',
+    name: 'chatgpt',
+    url: 'https://chatgpt.com/',
+    description: '写文案第一选择',
+    category: 'ecommerce',
+    tags: ["AI","电商","文案写作"]
+  },
+  {
+    id: '海螺ai',
+    name: '海螺ai',
+    url: 'https://hailuoai.video/',
+    description: 'ai视频创作',
+    category: 'ecommerce',
+    tags: ["电商","AI"]
+  },
+  {
+    id: '免费资源库',
+    name: '免费资源库',
+    url: 'https://fmhy.net/',
+    description: '非常丰富的免费资源宝库',
+    category: 'tech',
+    tags: ["产品","AI"]
+  },
+  {
+    id: '让小产品的变现更简单',
+    name: '让小产品的变现更简单',
+    url: 'https://www.ezindie.com/',
+    description: '让小产品的变现更简单',
+    category: 'tech',
+    tags: ["创业","产品","在线赚钱"]
+  },
+  {
+    id: 'audiomass-audio-editor',
+    name: 'AudioMass - Audio Editor',
+    url: 'https://audiomass.co/',
+    description: '在线音频编辑',
+    category: 'tech',
+    tags: ["产品","AI"]
+  },
+  {
+    id: 'musclewiki',
+    name: 'musclewiki',
+    url: 'https://musclewiki.com/',
+    description: '一个精准健身网站',
+    category: 'tech',
+    tags: ["产品","数据科学"]
+  },
+  {
+    id: 'ip查询',
+    name: 'ip查询',
+    url: 'https://ping0.cc',
+    description: 'ip查询',
+    category: 'ecommerce',
+    tags: ["电商","跨境"]
+  },
+  {
+    id: 'whoer',
+    name: 'whoer',
+    url: 'https://whoer.net',
+    description: '伪装度检测',
+    category: 'ecommerce',
+    tags: ["跨境","电商"]
+  }
 ]

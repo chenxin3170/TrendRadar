@@ -7,15 +7,15 @@ const site = computed(() => {
 })
 
 useHead({
-  title: () => site.value ? `${site.value.name} - TrendRadar 趋势雷达` : '站点未找到',
+  title: () => site.value ? `${site.value.name} - 聚栈` : '站点未找到',
   meta: [
     {
       name: 'description',
-      content: () => site.value ? `${site.value.description} - 自媒体人必备工具推荐，访问 TrendRadar 获取更多趋势监控信号源。` : ''
+      content: () => site.value ? `${site.value.description} - 自媒体人必备工具推荐，访问 聚栈 获取更多趋势监控信号源。` : ''
     },
     {
       name: 'keywords',
-      content: () => site.value ? `${site.value.name},${site.value.tags.join(',')},趋势监控,自媒体工具,TrendRadar` : ''
+      content: () => site.value ? `${site.value.name},${site.value.tags.join(',')},趋势监控,自媒体工具,聚栈` : ''
     }
   ],
   script: [
@@ -26,11 +26,11 @@ useHead({
         '@type': 'WebPage',
         'name': site.value?.name,
         'description': site.value?.description,
-        'url': `https://panic-3170.github.io/TrendRadar/sites/${route.params.id}`,
+        'url': `https://jz.apppss.com/sites/${route.params.id}/`,
         'publisher': {
           '@type': 'WebSite',
-          'name': 'TrendRadar 趋势雷达',
-          'url': 'https://panic-3170.github.io/TrendRadar'
+          'name': '聚栈',
+          'url': 'https://jz.apppss.com/'
         }
       }))
     }

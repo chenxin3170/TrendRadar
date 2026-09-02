@@ -2,9 +2,9 @@
 import { sites } from '~/data/sites'
 
 useHead({
-  title: '所有工具 - TrendRadar 趋势雷达',
+  title: '所有工具 - 聚栈',
   meta: [
-    { name: 'description', content: '浏览 TrendRadar 收录的所有趋势监控工具，包括 Reddit 社区、Google Trends、Product Hunt 等 32+ 个平台。' },
+    { name: 'description', content: '浏览 聚栈 收录的所有趋势监控工具，包括 Reddit 社区、Google Trends、Product Hunt 等 32+ 个平台。' },
     { name: 'keywords', content: '趋势监控工具,自媒体工具,内容创作平台,Reddit社区,Google Trends,Product Hunt,工具导航,信息源,热点追踪' }
   ]
 })

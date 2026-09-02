@@ -8,7 +8,10 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: computed(() => `https://panic-3170.github.io/TrendRadar${route.path}`)
+      href: computed(() => {
+        const path = route.path.endsWith('/') ? route.path : `${route.path}/`
+        return `https://jz.apppss.com${path}`
+      })
     }
   ]
 })
